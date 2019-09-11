@@ -1,8 +1,8 @@
 import React from "react";
 import { operators } from "../../../data";
 import OperatorButton from "./OperatorButton"
+import { italic } from "ansi-colors";
 
-// import { italic } from "ansi-colors";
 //import any components needed
 
 //Import your array data to from the provided data file
