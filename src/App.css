@@ -1,10 +1,11 @@
 .container {
     background-color: #c00025;
     width: 100%;
-    max-width: 550px;
+    max-width: 50%;
     border-radius: 15px;
     border: 2px solid grey;
     padding-bottom: 25px;
+    margin: auto;
 }
 .display {
     margin-top: 25px;
@@ -19,4 +20,58 @@
     align-items: flex-end;
     padding-right: 8%;
     font-size: 5.0rem;
+    margin: auto;
   }
+   .num-button{
+    /* border-radius: 67%; */
+    width :24%;
+    padding: 33px;
+    font-size: 1.5rem;
+    margin: 17px;
+    /* border-bottom: 2px outset #A4175D; */
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+    background-color: #262656;
+    color: white;
+  }
+
+  .spe-button{
+    width :24%;
+    padding: 33px;
+    font-size: 1.5rem;
+    margin: 17px;
+    /* border-bottom: 2px outset #A4175D; */
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+    background-color: #2146b3;
+    color: white;
+}
+
+
+  .op-button{
+    width :24%;
+    padding: 33px;
+    font-size: 1.5rem;
+    margin: 17px;
+    /* border-bottom: 2px outset #A4175D; */
+    border-radius: 40px;
+    box-shadow: 0px 4px 0px 0px rgba(0,0,0,0.75);
+    background-color: #62c6de;
+    color: white;
+  }
+
+.left-buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.all-buttons{
+    display: flex;
+}
+
+/* button{
+    margin: 20%;
+} */
+.logo-container{
+    padding: 24px 0px 15px 24px;
+}
